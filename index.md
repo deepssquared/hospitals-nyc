@@ -42,4 +42,4 @@ There was a response I got on Twitter that sums up the limitations of this basic
 
 - Reviews scraped from [Yelp](https://yelp.com/).
 - Spatial files obtained from [New York City Open Data](https://data.cityofnewyork.us/widgets/i8iw-xf4u)
-- Demographic information obtained from [US Census] (https://factfinder.census.gov/faces/nav/jsf/pages/download_center.xhtml)
+- Demographic information obtained from [US Census](https://factfinder.census.gov/faces/nav/jsf/pages/download_center.xhtml)
