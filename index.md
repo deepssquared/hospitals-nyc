@@ -31,7 +31,8 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Statistical Aspect
+
 
 ### Limitations
 
@@ -41,6 +42,7 @@ There was a response I got on Twitter that sums up the limitations of this basic
 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+Also, I need to emphasize this level of analysis is incredibly **simple** and cannot be used to draw further conclusions. There are multiple criteria I haven't weighed in this model, including spatial clustering, co-linearity, other co-variates (to name a few). At some point, I hope to revisit this analysis with more sophisticated data methods. For now, I thought it would be interesting to pose this question.
 
 ### Data Sources
 
