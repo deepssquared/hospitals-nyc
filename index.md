@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Yelp Ratings and Healthcare in New York City
 
-You can use the [editor on GitHub](https://github.com/deepssquared/hospitals-nyc/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+It was a question that came randomly to mind.
 
 ### Markdown
 
@@ -36,3 +34,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 - Reviews scraped from [Yelp](https://yelp.com/).
 - Spatial files obtained from [New York City Open Data](https://data.cityofnewyork.us/widgets/i8iw-xf4u)
+- Demographic information obtained from [US Census] (https://factfinder.census.gov/faces/nav/jsf/pages/download_center.xhtml)
