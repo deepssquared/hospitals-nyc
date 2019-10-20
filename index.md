@@ -14,7 +14,7 @@ I got quite a few responses, many of them expressing interest. So, instead of go
 ![Image](map.png)
 
 #### A Closer Look
-![Image](Yelp Ratings.png)
+![Image](Yelp%20Ratings.png)
 ![Image](Income.png)
 ![Image](Population.png)
 
