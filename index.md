@@ -13,6 +13,11 @@ I got quite a few responses, many of them expressing interest. So, instead of go
 ### Data Visualization
 ![Image](map.png)
 
+#### A Closer Look
+![Image](Yelp Ratings.png)
+![Image](Income.png)
+![Image](Population.png)
+
 
 ### Statistical Aspect
 
