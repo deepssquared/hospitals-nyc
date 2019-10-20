@@ -8,7 +8,7 @@ It was a question that came randomly to mind. So I did what millienials do and t
 
 I got quite a few responses, many of them expressing interest. So, instead of going out on a lovely weekend in New York City, I played with R.
 
-**Disclaimer**: This analysis is preliminary and quite basic to say the least. This was a curiousity project, not anything majorly serious. You have been warned.
+**Disclaimer**: This analysis is preliminary and quite basic to say the least. This was a curiousity project, not anything majorly serious. All my statistics teachers would cry with the number of assumptions about the data I made in doing this. You have been warned.
 
 ### Data Visualization
 ![Image](map.png)
