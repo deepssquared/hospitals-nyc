@@ -1,4 +1,4 @@
-## Yelp Ratings and Healthcare in New York City
+# Yelp Ratings and Healthcare in New York City
 
 It was a question that came randomly to mind. So I did what millienials do and tweeted it:
 
@@ -6,14 +6,16 @@ It was a question that came randomly to mind. So I did what millienials do and t
 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+I got quite a few responses, many of them expressing interest. So, instead of going out on a lovely weekend in New York City, I played with R.
 
-I got quite a few responses, many of them expressing interest. 
+**Disclaimer**: This analysis is preliminary and quite basic to say the least. This was a curiousity project, not anything majorly serious. You have been warned.
 
 ### Data Visualization
 ![Image](map.png)
 
 
 ### Statistical Aspect
+
 
 
 ### Limitations
@@ -26,7 +28,13 @@ There was a response I got on Twitter that sums up the limitations of this basic
 
 Also, I need to emphasize this level of analysis is incredibly **simple** and cannot be used to draw further conclusions. There are multiple criteria I haven't weighed in this model, including spatial clustering, co-linearity, other co-variates (to name a few). At some point, I hope to revisit this analysis with more sophisticated data methods. For now, I thought it would be interesting to pose this question.
 
-### Data Sources
+### Next Steps
+
+1. Identify spatial clustering for co-variates and outcomes.
+2. Use hierarchical modeling to analyze potential predictors.
+3. Qualitative analysis: *probably the most important part*. I've yet to do this: analyze word frequency, identify common phrases, etc. 
+
+#### Data Sources
 
 - Reviews scraped from [Yelp](https://yelp.com/).
 - Spatial files obtained from [New York City Open Data](https://data.cityofnewyork.us/widgets/i8iw-xf4u)
