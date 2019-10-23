@@ -21,7 +21,7 @@ New York City is fortunate to have a health department that offers publicly avai
 
 
 ### Data Visualization
-![Image](map.png)
+![Image](map_cropped.png)
 
 #### A Closer Look
 ![Image](Yelp%20Ratings.png)
