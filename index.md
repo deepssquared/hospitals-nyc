@@ -10,7 +10,7 @@ I got quite a few responses, many of them expressing interest. So, instead of go
 
 **Disclaimer**: This analysis is preliminary and quite basic to say the least. This was a curiousity project, not anything majorly serious. All my statistics teachers would cry with the number of assumptions about the data I made in doing this. You have been warned.
 
-# Navigation Menu
+## Navigation Menu
 - [Methods](#methods)
 - [Data Visualization](#datavis)
 - [Statistical Aspect](#stats)
