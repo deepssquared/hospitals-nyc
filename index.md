@@ -11,8 +11,13 @@ I got quite a few responses, many of them expressing interest. So, instead of go
 **Disclaimer**: This analysis is preliminary and quite basic to say the least. This was a curiousity project, not anything majorly serious. All my statistics teachers would cry with the number of assumptions about the data I made in doing this. You have been warned.
 
 ### Methods
-New York City is fortunate to have a health department that offers publicly available datasets online. 
-Additionally, I used Yelp's API to scrape information concerning 1000 health centers in New York City.
+New York City is fortunate to have a health department that offers publicly available datasets online. Through government websites, I obtained demographic data along with the spatial files. For the Yelp reviews, I used Yelp's API to scrape information concerning 1000 health centers in New York City.
+
+| Exposure                  | Outcome                         | Other Co-Variates |
+|---------------------------|---------------------------------|-------------------|
+| Median income by zip code | Median Yelp Rating per zip code | Number of reviews |
+| Population of zip code    |                                 |                   |
+|                           |                                 |                   |
 
 ### Data Visualization
 ![Image](map.png)
