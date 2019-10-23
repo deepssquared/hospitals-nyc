@@ -17,7 +17,7 @@ New York City is fortunate to have a health department that offers publicly avai
 |---------------------------|---------------------------------|-------------------|
 | Median income by zip code | Median Yelp Rating per zip code | Number of reviews |
 | Population of zip code    |                                 |                   |
-|                           |                                 |                   |
+
 
 ### Data Visualization
 ![Image](map.png)
