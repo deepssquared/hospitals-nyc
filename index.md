@@ -27,6 +27,8 @@ Additionally, I used Yelp's API to scrape information concerning 1000 health cen
 
 
 #### Spatial Clusters
+![Image](median income clusters_labeled.png)
+![Image](pop_cluster labeled.png)
 
 
 ### Limitations
