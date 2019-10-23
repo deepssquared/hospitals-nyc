@@ -13,7 +13,8 @@ I got quite a few responses, many of them expressing interest. So, instead of go
 ### Methods
 New York City is fortunate to have a health department that offers publicly available datasets online. Through government websites, I obtained demographic data along with the spatial files. For the Yelp reviews, I used Yelp's API to scrape information concerning 1000 health centers in New York City.
 
-| Exposure                  | Outcome                         | Other Co-Variates |
+
+| Exposure(s)               | Outcome                         | Other Co-Variates |
 |---------------------------|---------------------------------|-------------------|
 | Median income by zip code | Median Yelp Rating per zip code | Number of reviews |
 | Population of zip code    |                                 |                   |
