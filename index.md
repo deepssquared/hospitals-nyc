@@ -10,7 +10,16 @@ I got quite a few responses, many of them expressing interest. So, instead of go
 
 **Disclaimer**: This analysis is preliminary and quite basic to say the least. This was a curiousity project, not anything majorly serious. All my statistics teachers would cry with the number of assumptions about the data I made in doing this. You have been warned.
 
-### Methods
+# Navigation Menu
+- [Methods](#methods)
+- [Data Visualization](#datavis)
+- [Statistical Aspect](#stats)
+- [Limitations](#limit)
+- [Next Steps](#ns)
+- [Data Sources](#datasources)
+
+
+### Methods <a name="methods"></a>
 New York City is fortunate to have a health department that offers publicly available datasets online. Through government websites, I obtained demographic data along with the spatial files. For the Yelp reviews, I used Yelp's API to scrape information concerning 1000 health centers in New York City.
 
 
@@ -20,7 +29,7 @@ New York City is fortunate to have a health department that offers publicly avai
 | Population of zip code    |                                 |                   |
 
 
-### Data Visualization
+### Data Visualization <a name="datavis"></a>
 ![Image](map_cropped.png)
 
 #### A Closer Look
@@ -29,7 +38,7 @@ New York City is fortunate to have a health department that offers publicly avai
 ![Image](Population.png)
 
 
-### Statistical Aspect
+### Statistical Aspect <a name="stats"></a>
 
 
 #### Spatial Clusters
@@ -40,7 +49,7 @@ New York City is fortunate to have a health department that offers publicly avai
 ![Image](pop_cluster labeled.png)
 
 
-### Limitations
+### Limitations <a name="limit"></a>
 
 There was a response I got on Twitter that sums up the limitations of this basic data project: 
 
@@ -52,13 +61,13 @@ As Dr. Spec indicated, Yelp reviews are not measures of healthcare quality; it h
 
 Also, I need to emphasize this level of analysis is incredibly **simple** and cannot be used to draw further conclusions. There are multiple criteria I haven't weighed in this model, including assumptions made when mapping spatial clustering, co-linearity, other co-variates (to name a few). At some point, I hope to revisit this analysis with more sophisticated data methods. For now, I thought it would be interesting to pose this question.
 
-### Next Steps
+### Next Steps <a name="ns"></a>
 
 1. Identify spatial clustering for co-variates and outcomes.
 2. Use hierarchical modeling to analyze potential predictors.
 3. Qualitative analysis: *probably the most important part*. I've yet to do this: analyze word frequency, identify common phrases, etc. 
 
-#### Data Sources
+#### Data Sources <a name="datasources"></a>
 
 - Reviews scraped from [Yelp](https://yelp.com/).
 - Spatial files obtained from [New York City Open Data](https://data.cityofnewyork.us/widgets/i8iw-xf4u)
