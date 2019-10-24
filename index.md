@@ -14,13 +14,14 @@ I got quite a few responses, many of them expressing interest. So, instead of go
 #### **[Methods](#methods)**
 #### **[Data Visualization](#datavis)**
 #### **[Statistical Aspect](#stats)**
+#### **[Conclusion(s)](#con)**
 #### **[Limitations](#limit)**
 #### **[Next Steps](#ns)**
 #### **[Data Sources](#datasources)**
 
 
 ### Methods <a name="methods"></a>
-New York City is fortunate to have a health department that offers publicly available datasets online. Through government websites, I obtained demographic data along with the spatial files. For the Yelp reviews, I used Yelp's API to scrape information concerning 1000 health centers in New York City.
+New York City is fortunate to have a health department that offers publicly available datasets online. Through government websites, I obtained demographic data along with the spatial files. For the Yelp reviews, I used Yelp's API to scrape information concerning 1000 health centers in New York City. All exposures and outcomes were stratified by zip code. I also considered the number of reviews a health center had when making visualizations. All variables listed below were treated as continuous measures. 
 
 
 | Exposure(s)               | Outcome                         | Other Co-Variates |
@@ -37,6 +38,7 @@ New York City is fortunate to have a health department that offers publicly avai
 ![Image](Income.png)
 ![Image](Population.png)
 
+**Discussion**: I was quite surprised how many zip codes didn't have any health facilities! I queried 1000 health centers, so I was expecting even a small clinic to show up on my query. Some areas were understandable (I don't think New Yorkers would appreciate a hospital in Central Park). The South Bronx though? That was disheartening to see. 
 
 ### Statistical Aspect <a name="stats"></a>
 
@@ -48,6 +50,15 @@ New York City is fortunate to have a health department that offers publicly avai
 
 ![Image](pop_cluster labeled.png)
 
+**Discussion**: Confession, I tried throwing all the variables into a basic linear model and see what would happen. (Yes, I know this is not allowed. Apologies to my regression professor.) None of the predictors were significant, but when accounting for spatial clustering, some zip codes were significantly linked to yelp rating via a predictor.  
+
+### Conclusion(s)? <a name="con"></a>
+
+Honestly...at the moment...not that many. After looking at this data, I do have a couple of speculations though:
+
+1. Population-density has an inverse relationship with Yelp rating. Clinician to patient ratio impacts wait times and in doing so, the likelihood of a one-star review. 
+2. Yelp reviews may be a more promising indicator of quality of care with regards to specific sites of larger hospital systems. A yelp search for Columbia Hospital will result in multiple addresses, simply because Columbia owns so many clinics in Manhattan. Rather than having an aggregate review and ranking (as many lists do for hospitals), it might be more beneficial to segregate outcomes by site or service offered.
+3. Income might not be the best indicator in proxying socioeconomic status. A cost of living adjustment might be in order to guage who gets left out of NYC's health clinics.
 
 ### Limitations <a name="limit"></a>
 
@@ -63,9 +74,11 @@ Also, I need to emphasize this level of analysis is incredibly **simple** and ca
 
 ### Next Steps <a name="ns"></a>
 
-1. Identify spatial clustering for co-variates and outcomes.
+1. Identify spatial clustering for multiple co-variates and outcomes.
 2. Use hierarchical modeling to analyze potential predictors.
 3. Qualitative analysis: *probably the most important part*. I've yet to do this: analyze word frequency, identify common phrases, etc. 
+4. Classify health centers by specialty: ERs serve a vastly different function than birthing centers. 
+5. Stratify visualization by health outcome and clinics that address them accordingly.
 
 #### Data Sources <a name="datasources"></a>
 
