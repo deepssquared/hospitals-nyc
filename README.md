@@ -44,11 +44,11 @@ New York City is fortunate to have a health department that offers publicly avai
 
 
 #### Spatial Clusters
-![Image](median income clusters_labeled.png)
+![Image](median%20income%20clusters_labeled.png)
 
 ----------------------------------------------
 
-![Image](pop_cluster labeled.png)
+![Image](pop_cluster%20labeled.png)
 
 **Discussion**: Confession, I tried throwing all the variables into a basic linear model and see what would happen. (Yes, I know this is not allowed. Apologies to my regression professor.) None of the predictors were significant, but when accounting for spatial clustering, some zip codes were significantly linked to yelp rating via a predictor.  
 
